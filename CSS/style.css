@@ -1,0 +1,119 @@
+body {
+  background: url(../Images/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  background-color: rgb(213, 202, 188);
+  height: 100%;
+  margin: 0%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "EB Garamond", serif;
+}
+
+.decoration_line {
+  margin: 2%;
+}
+
+h1 {
+  font-family: "Homemade Apple", cursive;
+  margin: 0%;
+  font-weight: 200;
+}
+
+h2 {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #c9d5e3;
+  margin: 5%;
+  border-radius: 1%;
+  box-shadow: 1px 1px 1px 1px rgb(187, 187, 224);
+  line-height: 2;
+  max-width: 70%;
+}
+
+.card_img {
+  max-width: 90%;
+  padding: 2%;
+  margin: 3%;
+}
+
+.card_text {
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+}
+
+.link {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #dac3c3;
+  padding: 2%;
+}
+
+.contact {
+  margin: 0%;
+  text-align: start;
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+  .card {
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 1000px) {
+  a {
+    font-size: x-large;
+  }
+
+  a:hover {
+    color: rgb(163, 161, 161);
+  }
+
+  h2 {
+    font-size: xx-large;
+  }
+
+  p {
+    font-size: x-large;
+  }
+
+  .card {
+    max-width: 40%;
+  }
+
+  .card:hover {
+    box-shadow: 2px 2px 2px 2px rgb(177, 177, 208);
+  }
+}
