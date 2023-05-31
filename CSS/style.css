@@ -80,6 +80,7 @@ p {
   flex-direction: row;
   justify-content: space-around;
   padding: 2%;
+  background-color: #dac3c3;
 }
 
 footer {
@@ -121,6 +122,7 @@ footer {
 
   .github:hover,
   .live:hover {
-    box-shadow: 2px 2px 2px 2px #94b8e2;
+    background-color: #c9d5e3;
+    box-shadow: 2px 2px 2px 2px #718dad;
   }
 }
