@@ -80,7 +80,6 @@ p {
   flex-direction: row;
   justify-content: space-around;
   padding: 2%;
-  background-color: #dac3c3;
 }
 
 footer {
@@ -118,11 +117,5 @@ footer {
 
   .card {
     max-width: 40%;
-  }
-
-  .github:hover,
-  .live:hover {
-    background-color: #c9d5e3;
-    box-shadow: 2px 2px 2px 2px #718dad;
   }
 }
